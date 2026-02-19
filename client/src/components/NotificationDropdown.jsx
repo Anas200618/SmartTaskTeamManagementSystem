@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import API from "../services/api";
 
-const socket = io("http://localhost:5000"); // Your Backend URL
+const socket = io("https://smarttaskteammanagementsystem.onrender.com"); // Your Backend URL
 
 const NotificationDropdown = ({ currentTheme }) => {
   const [notifications, setNotifications] = useState([]);
