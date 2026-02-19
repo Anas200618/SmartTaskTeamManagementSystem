@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app); // 3. Wrap express app
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Update this to your frontend URL
+    origin: "https://smarttaskteammanagementsystem.onrender.com", // Update this to your frontend URL
     methods: ["GET", "POST"]
   }
 });
