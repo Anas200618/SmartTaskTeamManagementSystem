@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app); // 3. Wrap express app
 const io = new Server(server, {
   cors: {
-    origin: "https://smarttaskteammanagementsystem.onrender.com", // Update this to your frontend URL
+    origin: "https://smart-task-team-management-system-9y8xxow4z.vercel.app", // Update this to your frontend URL
     methods: ["GET", "POST"]
   }
 });
